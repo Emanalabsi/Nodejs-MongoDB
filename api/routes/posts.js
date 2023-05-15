@@ -5,7 +5,7 @@ const {
   addPost,
   deletePost,
   updatePost,
-} = require("../controllers/posts.controller");
+} = require("../controllers/posts");
 
 router.get("/", getPosts);
 
